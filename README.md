@@ -57,9 +57,11 @@ você precisa ter instalado:
 Opcional: Eu gosto do yarn, mas você pode usar `npm`
 
 - [Yarn](https://yarnpkg.com/)
+
 ## 🚀 Como rodar?
 
-Por se tratar de um repositório para armazenar códigos de vários cursos do [Vue Mastery](https://www.vuemastery.com/), é preciso acessar cada pastar individualmente, e seguir as instruções do README de cada projeto.
+Por se tratar de um repositório para armazenar códigos de vários cursos do [Vue Mastery](https://www.vuemastery.com/), é preciso acessar cada pasta individualmente, e seguir as instruções do README de cada projeto.
+
 ## 📝 Licença
 
 Esse repositório não tem licença, para mais informações, acesse [LICENÇA](LICENSE.md).
