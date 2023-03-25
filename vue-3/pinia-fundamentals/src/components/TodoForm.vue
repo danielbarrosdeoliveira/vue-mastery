@@ -4,6 +4,8 @@ import { useTodoListStore } from '../stores/todoList';
 
 const store = useTodoListStore();
 
+const todo = ref('')
+
 function addItemAndClear(item) {
   if (item.length === 0) {
     return
@@ -12,11 +14,10 @@ function addItemAndClear(item) {
   todo.value = ''
 }
 
-const todo = ref('')
 </script>
 
 <template>
-  <form @submit.prevent="addItemAndClear">
+  <form @submit.prevent="addItemAndClear(todo)">
     <input v-model="todo" type="text" /><button>Add</button>
   </form>
 </template>
